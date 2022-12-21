@@ -2,7 +2,6 @@
 Fortran script for IRC using Freq calculation provide by Gaussian16.
 
 Github page:
-
 https://ctm-itodys.github.io/ircbyhand/
 
 You need to compile the code:

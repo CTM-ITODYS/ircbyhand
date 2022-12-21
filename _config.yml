@@ -1,7 +1,7 @@
-title: FROGHamil
+title: ircbyhand
 author: Sylvain PITIÉ
 email: sylvain.pitie@u-paris.fr
-description: a script to get the Overlap and Fock matrix from a Gaussian16 calculation
+description: Fortran script for IRC using Freq calculation provide by Gaussian16.
 twitter_username: PitiéSylvain
 
 theme: jekyll-theme-slate

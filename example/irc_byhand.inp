@@ -1,0 +1,7 @@
+dxyz= 0.001                           !Value of step               
+nbstep= 50                            !Number of points
+#head for gaussian calculation
+mem= 24GB                             !Memory
+nprocshared= 60                       ! Number of proc
+CAMP-B3LYP/6-31G* SCF=(maxcyc=800) nosym 
+1 2                                   ! Charge and Spin

@@ -9,7 +9,7 @@ For utilisation:
 ```
 The file.xyz contains the geometry of the transition state (or other specific geometries).<br />
 The file.log is provided after frequencies calculation using Gaussian16. <br />
-The code ircbyhand.exe reads the first frequency in order to make the IRC path.<br />
+The code ircbyhand.exe reads the first frequency (in red) in order to make the IRC path.<br />
 <img src="freq_ts.png" width="400" height="400" /><br />
 You are free to modify the logfile to put in the first position the frequency that you want.<br />
 

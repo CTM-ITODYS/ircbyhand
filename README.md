@@ -17,7 +17,7 @@ The code ircbyhand.exe reads the first frequency in order to make the IRC path.
 You are free to modify the logfile to put in the first position the frequency that you want.
 
 The options on the IRC path are read in the file ircbyhand.inp:
-dxyz= 0.001                           !Give the value of the scale 
+dxyz= 0.001                           !Give the value of the scale <br />
 nbstep= 50                            !Give the number of step
 #head for gaussian calculation        ! The keywords for Gaussian single point energy calculation
 mem= 24GB                             !Memory

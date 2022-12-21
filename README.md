@@ -14,8 +14,12 @@ You are free to modify the logfile to put in the first position the frequency th
 The options on the IRC path are read in the file ircbyhand.inp:
 dxyz= 0.001                           !Give the value of the scale 
 nbstep= 50                            !Give the number of step
-#head for gaussian calculation        ! The keywords for Gaussian single point calculation
+#head for gaussian calculation        ! The keywords for Gaussian single point energy calculation
 mem= 24GB                             !Memory
 nprocshared= 24                       ! Number of proc
 CAMP-B3LYP/6-31G* SCF=(maxcyc=800) nosym
 1 2                                   ! Charge and Spin
+
+
+In this case, the ircbyhand code give 50 files in the forward direction and 50 files in the backward direction.
+You can use these file to perform Gaussian16 single point energy calculation.
